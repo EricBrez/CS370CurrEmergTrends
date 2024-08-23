@@ -1,1 +1,13 @@
-# CS370CurrEmergTrends
+# CS370 Reflection
+
+### Explain the project:
+- The goal of this project was to write the learning algorithm for a Non-Player Character (NPC) in a maze race game. The agent had to use reinforcment learning to successfully navigate a grid that had a combination of free cells and blocked cells and the goal was to reach the treasure at the opposite corner of the grid. The agent recieved rewards for finding the treasure, and moving to a new cell, and penalties for exiting the grid, moving to a blocked cell, and moving to a cell that it had already visited. To limit the time each iteration took, there was also a minimum reward for each turn and a minimum score where the game would end if the agent reached it. I was provided the code for the memorization, for the maze object, and most of the code for the agent itself and had to write the code for the learning algorithm.
+
+### What do computer scientists do and why does it matter
+ - "Computer Science" is a very broad subject. In general, I would say that computer scientists use computer technology to innovate, and invent new ways to make everyday life easier, more convenient, and safer for the average person and for organizations. This matters for the reason it sounds like, progressing human knowledge and capabilites can lead to more efficient methods of accomplishing tedious, dangerous, or difficult tasks with a higher degree of accuracy.
+
+### How do I approach a problem as a computer scientist
+- I approach a problem by analyzing the end goal and guaging what steps are required to achieve it, and this has bled into not only my approach to building programs, but also just life in general. If the problem is to reorganize the living room, I first decide how I want it to look when it is done, and then what steps are going to get me there i.e. move shelf A out, to make room to shift the couch so that I can put the television there so on and so forth.
+
+### What are my ethical responsabilities to the end user and the organization
+ - The first ethical responability to the client is to handle their data safely and securely. Even if it may sacrifice a deadline, or a feature that needs some bugs worked out before it can be launched, the client's safety has to be number one. tied for second is fulfillment of requirements, and complete transparency. Fulfillment of the requirements is extremely important, after all, that is why they came to you to build this, but also, you must be honest and transparent, with deatlines, setting realistic expectations, and how you are handling their data. Honestly the list of ethical responsabilities could be (and has been) turned into a book, but I would argue that these are the most important.
